@@ -15,7 +15,7 @@ class Program
         library.AddScripture(new Reference("Philippians", 4, 13), "I can do all things through Christ who strengthens me.");
 
         Console.WriteLine("This is a scripture memorizer program.");
-        Console.WriteLine("Ress 1 to enter a new scripture, press 2 to enter the memorizor or type quit to quit: ");
+        Console.WriteLine("Press 1 to enter a new scripture, press 2 to enter the memorizor or type quit to quit: ");
         string input = Console.ReadLine();
         while(true){
 
@@ -33,7 +33,7 @@ class Program
             library.AddScripture(new Reference(book, chapter, verse), verseText);
         }
         else if (input == "2"){
-            Console.Clear();
+            Console.WriteLine("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
             Scripture scripture = library.GetRandomScripture();
 
             if (scripture != null)
@@ -42,7 +42,7 @@ class Program
 
                 while (!scripture.IsCompletelyHidden())
                 {
-                    Console.Clear();
+                    Console.WriteLine("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                     Console.WriteLine(scripture.RenderScripture());
 
                     Console.Write("Press Enter to hide a word or type 'quit' to exit: ");
@@ -65,7 +65,7 @@ class Program
                     Console.WriteLine("You've memorized the entire scripture!");
                     Console.WriteLine("Press Enter to continue...");
                     Console.ReadLine();
-                    Console.Clear();
+                    Console.WriteLine("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                 }
             }
             else
