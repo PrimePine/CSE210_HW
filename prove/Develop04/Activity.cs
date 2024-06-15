@@ -34,7 +34,7 @@ class Activity
     {
         Spinner spinner = new Spinner();
         spinner.ShowSpinnerDone();
-        Console.WriteLine($"\nYou have completed another {_duration} seconds of the {_name} Activity!");
+        Console.WriteLine($"\nYou have completed {_duration} seconds of the {_name} Activity!");
         spinner.ShowSpinner();
     }
    public void Countdown(int time){
@@ -42,7 +42,7 @@ class Activity
               Console.WriteLine($"{_message} {i}");
               System.Threading.Thread.Sleep(1000);
          }
-         Console.WriteLine("Time's up!");
+         Console.WriteLine("Begin");
    }
 
 

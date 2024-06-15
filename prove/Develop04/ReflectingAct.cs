@@ -21,7 +21,6 @@ class ReflectingAct : Activity{
     };
     private List<string> _usequestionlist= new List<string>();
     private string _prompt;
-    private string _question;
 
     private string _description = "this activity is designed to help you focus on your thoughts and feelings";
 

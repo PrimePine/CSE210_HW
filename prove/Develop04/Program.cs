@@ -9,7 +9,7 @@ class Program
         int seconds = 0;
         while(menu!=4){
             Console.WriteLine("1. Breathing activity");
-            Console.WriteLine("2. Listing activity)");
+            Console.WriteLine("2. Listing activity");
             Console.WriteLine("3. Reflecting activity");
             Console.WriteLine("4. Exit");
             Console.WriteLine("Choose activity: ");
