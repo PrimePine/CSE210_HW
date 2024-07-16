@@ -81,11 +81,5 @@ class CharacterSheet{
         Console.WriteLine("Wisdom: "+ _Wisdom);
         Console.WriteLine("Charisma: "+ _Charisma);
     }
-    
-
-
-
-
-    
 }
 
